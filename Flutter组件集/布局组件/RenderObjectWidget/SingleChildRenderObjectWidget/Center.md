@@ -36,7 +36,7 @@ child | Widget|--|被包裹组件
 
 ##### 4.基本使用
 
->继承自[Align](https://github.com/FlutterJourney/flutter_widget_unit/blob/master/Flutter组件集/布局组件//RenderObjectWidget/SingleChildRenderObjectWidget/Align.md),相当于精简版的Align,功能较单一,可以将孩子置于父亲的中间 。
+>继承自[Align](https://github.com/toly-flutter/flutter_widget_unit/blob/master/Flutter组件集/布局组件//RenderObjectWidget/SingleChildRenderObjectWidget/Align.md),相当于精简版的Align,功能较单一,可以将孩子置于父亲的中间 。
 当父亲没有宽高时，Center也具有widthFactor和heightFactor的功能
 
 

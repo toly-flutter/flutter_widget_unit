@@ -28,7 +28,7 @@ flutter/packages/flutter/lib/src
 
 属性名 | 类型 | 默认|含义
 ---|---|---|---
-[constraints](https://github.com/FlutterJourney/flutter_widget_unit/blob/master/Flutter属性集/constraints:BoxConstraints.md) | BoxConstraints |--|宽因子
+[constraints](https://github.com/toly-flutter/flutter_widget_unit/blob/master/Flutter属性集/constraints:BoxConstraints.md) | BoxConstraints |--|宽因子
 child | Widget|--|被包裹组件
 
 ---

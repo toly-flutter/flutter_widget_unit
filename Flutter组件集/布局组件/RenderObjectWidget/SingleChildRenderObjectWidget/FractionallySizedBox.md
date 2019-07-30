@@ -27,7 +27,7 @@ flutter/packages/flutter/lib/src
 
 属性名 | 类型 | 默认|含义
 ---|---|---|---
-[alignment](https://github.com/FlutterJourney/flutter_widget_unit/blob/master/Flutter属性集/alignment:AlignmentGeometry.md)| AlignmentGeometry|Alignment.center|对齐
+[alignment](https://github.com/toly-flutter/flutter_widget_unit/blob/master/Flutter属性集/alignment:AlignmentGeometry.md)| AlignmentGeometry|Alignment.center|对齐
 widthFactor| double|--|宽因子
 heightFactor| double|--|高因子
 child | Widget|--|被包裹组件

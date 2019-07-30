@@ -27,8 +27,8 @@ flutter/packages/flutter/lib/src
 
 属性名 | 类型 | 默认|含义
 ---|---|---|---
-[fit](https://github.com/FlutterJourney/flutter_widget_unit/blob/master/Flutter属性集/fit:BoxFit.md) | BoxFit|BoxFit.contain|适应模式
-[alignment](https://github.com/FlutterJourney/flutter_widget_unit/blob/master/Flutter属性集/alignment:AlignmentGeometry.md)| AlignmentGeometry|Alignment.center|对齐
+[fit](https://github.com/toly-flutter/flutter_widget_unit/blob/master/Flutter属性集/fit:BoxFit.md) | BoxFit|BoxFit.contain|适应模式
+[alignment](https://github.com/toly-flutter/flutter_widget_unit/blob/master/Flutter属性集/alignment:AlignmentGeometry.md)| AlignmentGeometry|Alignment.center|对齐
 child | Widget|--|被包裹组件
 
 ---
@@ -36,7 +36,7 @@ child | Widget|--|被包裹组件
 ##### 4.基本使用
 
 >FittedBox可以让其子元素和其父元素产生布局关系，可以说是个中间人  
-其中布局关系用[fit](https://github.com/FlutterJourney/flutter_widget_unit/blob/master/Flutter属性集/fit:BoxFit.md)属性和[alignment](https://github.com/FlutterJourney/flutter_widget_unit/blob/master/Flutter属性集/alignment:AlignmentGeometry.md)控制  
+其中布局关系用[fit](https://github.com/toly-flutter/flutter_widget_unit/blob/master/Flutter属性集/fit:BoxFit.md)属性和[alignment](https://github.com/toly-flutter/flutter_widget_unit/blob/master/Flutter属性集/alignment:AlignmentGeometry.md)控制  
 
 ![](https://user-gold-cdn.xitu.io/2019/7/9/16bd65531d3dcfaa?w=911&h=298&f=png&s=16249)
 

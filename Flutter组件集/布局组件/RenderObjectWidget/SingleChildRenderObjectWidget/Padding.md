@@ -29,7 +29,7 @@ flutter/packages/flutter/lib/src
 
 属性名 | 类型 | 默认|含义
 ---|---|---|---
-[padding](https://github.com/FlutterJourney/flutter_widget_unit/blob/master/Flutter属性集/padding:EdgeInsetsGeometry.md)|EdgeInsetsGeometry|！！！|内边距
+[padding](https://github.com/toly-flutter/flutter_widget_unit/blob/master/Flutter属性集/padding:EdgeInsetsGeometry.md)|EdgeInsetsGeometry|！！！|内边距
 [child](null)| Widget|--|被包裹组件
 
 ---

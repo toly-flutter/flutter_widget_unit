@@ -25,12 +25,12 @@ flutter/packages/flutter/lib/src
 
 属性名 | 类型 | 默认|含义
 ---|---|---|---
-[color](https://github.com/FlutterJourney/flutter_widget_unit/blob/master/Flutter属性集/color:Color.md)|Color|白色|容器内部颜色
+[color](https://github.com/toly-flutter/flutter_widget_unit/blob/master/Flutter属性集/color:Color.md)|Color|白色|容器内部颜色
 elevation | double|--|阴影高度
 borderOnForeground | bool|true|边框是否在前景
-[margin](https://github.com/FlutterJourney/flutter_widget_unit/blob/master/Flutter属性集/margin:EdgeInsetsGeometry.md)| EdgeInsetsGeometry|全0|外边距
-[shape](https://github.com/FlutterJourney/flutter_widget_unit/blob/master/Flutter属性集/shape:ShapeBorder.md)| Clip|Clip.none|裁剪行为
-[clipBehavior](https://github.com/FlutterJourney/flutter_widget_unit/blob/master/Flutter属性集/clipBehavior:Clip.md)| Clip|Clip.none|裁剪行为
+[margin](https://github.com/toly-flutter/flutter_widget_unit/blob/master/Flutter属性集/margin:EdgeInsetsGeometry.md)| EdgeInsetsGeometry|全0|外边距
+[shape](https://github.com/toly-flutter/flutter_widget_unit/blob/master/Flutter属性集/shape:ShapeBorder.md)| Clip|Clip.none|裁剪行为
+[clipBehavior](https://github.com/toly-flutter/flutter_widget_unit/blob/master/Flutter属性集/clipBehavior:Clip.md)| Clip|Clip.none|裁剪行为
 child| Widget|--|被包裹组件
 semanticContainer|bool|true|--
 
