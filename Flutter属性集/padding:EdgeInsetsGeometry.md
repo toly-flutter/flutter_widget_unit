@@ -20,13 +20,13 @@ flutter/packages/flutter/lib/src
 
 |   |  |
 |---|---|
-| [Padding](https://github.com/FlutterJourney/flutter_widget_unit/blob/master/Flutter组件集/布局组件//RenderObjectWidget/SingleChildRenderObjectWidget/Padding.md)  | [Container](https://github.com/FlutterJourney/flutter_widget_unit/blob/master/Flutter组件集/布局组件/StatelessWidget/Container.md)
+| [Padding](https://github.com/toly-flutter/flutter_widget_unit/blob/master/Flutter组件集/布局组件//RenderObjectWidget/SingleChildRenderObjectWidget/Padding.md)  | [Container](https://github.com/toly-flutter/flutter_widget_unit/blob/master/Flutter组件集/布局组件/StatelessWidget/Container.md)
 
 ---
 
 ##### 3、padding属性使用
 
->padding主要用于一个元素的内边距，注意它与[margin](https://github.com/FlutterJourney/flutter_widget_unit/blob/master/Flutter属性集/margin:EdgeInsetsGeometry.md)的区别。
+>padding主要用于一个元素的内边距，注意它与[margin](https://github.com/toly-flutter/flutter_widget_unit/blob/master/Flutter属性集/margin:EdgeInsetsGeometry.md)的区别。
 常用EdgeInsets类对象，几个创建方法如下,运算符重载有`+,-,*,/,%,~/`  
 
 ![](https://user-gold-cdn.xitu.io/2019/7/12/16be3ef2ec1e6168?w=1864&h=889&f=png&s=33069)

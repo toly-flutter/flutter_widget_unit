@@ -24,7 +24,7 @@ enum BoxFit {
 
 |   |  |
 |---|---|
-| [Image](null)  | [FittedBox](https://github.com/FlutterJourney/flutter_widget_unit/blob/master/Flutter组件集/布局组件/RenderObjectWidget/SingleChildRenderObjectWidget/FittedBox.md)
+| [Image](null)  | [FittedBox](https://github.com/toly-flutter/flutter_widget_unit/blob/master/Flutter组件集/布局组件/RenderObjectWidget/SingleChildRenderObjectWidget/FittedBox.md)
 
 ---
 

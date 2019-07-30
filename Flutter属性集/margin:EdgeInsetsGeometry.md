@@ -20,12 +20,12 @@ flutter/packages/flutter/lib/src
 
 |   |  |
 |---|---|
-| [Container](https://github.com/FlutterJourney/flutter_widget_unit/blob/master/Flutter组件集/布局组件/StatelessWidget/Container.md)  | [Card](https://github.com/FlutterJourney/flutter_widget_unit/blob/master/Flutter组件集/布局组件/StatelessWidget/Card.md)-
+| [Container](https://github.com/toly-flutter/flutter_widget_unit/blob/master/Flutter组件集/布局组件/StatelessWidget/Container.md)  | [Card](https://github.com/toly-flutter/flutter_widget_unit/blob/master/Flutter组件集/布局组件/StatelessWidget/Card.md)-
 
 ---
 
 ##### 3、margin属性使用
->margin主要用于一个元素的外边距，注意它与[padding](https://github.com/FlutterJourney/flutter_widget_unit/blob/master/Flutter属性集/padding:EdgeInsetsGeometry.md)的区别。
+>margin主要用于一个元素的外边距，注意它与[padding](https://github.com/toly-flutter/flutter_widget_unit/blob/master/Flutter属性集/padding:EdgeInsetsGeometry.md)的区别。
 常用EdgeInsets类对象，几个创建方法如下,运算符重载有`+,-,*,/,%,~/`  
 
 

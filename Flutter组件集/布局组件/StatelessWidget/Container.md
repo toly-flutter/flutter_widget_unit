@@ -29,14 +29,14 @@ flutter/packages/flutter/lib/src
 child | Widget|--|被包裹组件
 width | double|--|容器宽
 height | double|--|容器高
-[color](https://github.com/FlutterJourney/flutter_widget_unit/blob/master/Flutter属性集/color:Color.md)|Color|白色|容器内部颜色
-[padding](https://github.com/FlutterJourney/flutter_widget_unit/blob/master/Flutter属性集/padding:EdgeInsetsGeometry.md)| EdgeInsetsGeometry|全0|内边距
-[margin](https://github.com/FlutterJourney/flutter_widget_unit/blob/master/Flutter属性集/margin:EdgeInsetsGeometry.md)| EdgeInsetsGeometry|全0|外边距
-[alignment](https://github.com/FlutterJourney/flutter_widget_unit/blob/master/Flutter属性集/alignment:AlignmentGeometry.md)|AlignmentGeometry||对齐方式
-[constraints](https://github.com/FlutterJourney/flutter_widget_unit/blob/master/Flutter属性集/constraints:BoxConstraints.md)|BoxConstraints||约束
-[transform](https://github.com/FlutterJourney/flutter_widget_unit/blob/master/Flutter属性集/transform:Matrix4.md)|Matrix4||变换
-[decoration](https://github.com/FlutterJourney/flutter_widget_unit/blob/master/Flutter属性集/decoration:Decoration.md)|Decoration|无|装饰线
-[foregroundDecoration](https://github.com/FlutterJourney/flutter_widget_unit/blob/master/Flutter属性集/foregroundDecoration:Decoration.md)|Decoration||前景装饰
+[color](https://github.com/toly-flutter/flutter_widget_unit/blob/master/Flutter属性集/color:Color.md)|Color|白色|容器内部颜色
+[padding](https://github.com/toly-flutter/flutter_widget_unit/blob/master/Flutter属性集/padding:EdgeInsetsGeometry.md)| EdgeInsetsGeometry|全0|内边距
+[margin](https://github.com/toly-flutter/flutter_widget_unit/blob/master/Flutter属性集/margin:EdgeInsetsGeometry.md)| EdgeInsetsGeometry|全0|外边距
+[alignment](https://github.com/toly-flutter/flutter_widget_unit/blob/master/Flutter属性集/alignment:AlignmentGeometry.md)|AlignmentGeometry||对齐方式
+[constraints](https://github.com/toly-flutter/flutter_widget_unit/blob/master/Flutter属性集/constraints:BoxConstraints.md)|BoxConstraints||约束
+[transform](https://github.com/toly-flutter/flutter_widget_unit/blob/master/Flutter属性集/transform:Matrix4.md)|Matrix4||变换
+[decoration](https://github.com/toly-flutter/flutter_widget_unit/blob/master/Flutter属性集/decoration:Decoration.md)|Decoration|无|装饰线
+[foregroundDecoration](https://github.com/toly-flutter/flutter_widget_unit/blob/master/Flutter属性集/foregroundDecoration:Decoration.md)|Decoration||前景装饰
 
 ---
 
@@ -50,7 +50,7 @@ height | double|--|容器高
 
 ```
 ---->[widget_show/material_show.dart]----
-var container = Container(//容器���件
+var container = Container(//容器组件
   color: Colors.lightBlueAccent,//容器的颜色
   width: 150,//容器宽
   height: 100,//容器高

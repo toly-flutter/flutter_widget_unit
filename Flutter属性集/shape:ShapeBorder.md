@@ -15,7 +15,7 @@ flutter/packages/flutter/lib/src
 ##### 2.目前发现于持有该属性的组件有:
  | |||||
 ---|---|---|---|---
-|[Card](https://github.com/FlutterJourney/flutter_widget_unit/blob/master/Flutter组件集/布局组件/StatelessWidget/Card.md) ||| 
+|[Card](https://github.com/toly-flutter/flutter_widget_unit/blob/master/Flutter组件集/布局组件/StatelessWidget/Card.md) ||| 
 
 ---
 
