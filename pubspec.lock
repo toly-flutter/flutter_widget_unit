@@ -22,6 +22,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.1.2"
+  circle_progress:
+    dependency: "direct main"
+    description:
+      name: circle_progress
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.0.1"
   collection:
     dependency: transitive
     description:
