@@ -12,7 +12,7 @@ void main() => runApp(MaterialApp(
         appBar: AppBar(
           title: Text("Flutter 之旅"),
         ),
-        body:  show
+        body:  Container(color: Colors.grey.withAlpha(66),child: show,)
     )
 ));
 

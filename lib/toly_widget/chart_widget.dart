@@ -1,20 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widget_unit/toly_widget/circle_image.dart';
 
-enum ChartType { right, left }
-
-class ChatItem {
-  ImageProvider headIcon;
-  double maxWith;
-  ChartType type;
-  String text;
-
-  ChatItem(
-      {this.headIcon,
-      this.text,
-      this.maxWith = 300,
-      this.type = ChartType.right});
-}
 
 class NinePointBox extends StatelessWidget {
   final ImageProvider image;
@@ -28,7 +14,7 @@ class NinePointBox extends StatelessWidget {
       @required this.image,
       this.child,
       @required this.sliceRect,
-      this.maxWith = 300,
+      this.maxWith = 280,
       this.padding})
       : super(key: key);
 
@@ -48,6 +34,21 @@ class NinePointBox extends StatelessWidget {
   }
 }
 
+enum ChartType { right, left }//组件的类型
+
+class ChatItem {//组件信息描述类
+  ImageProvider headIcon;//头像
+  double maxWith;//最大宽
+  ChartType type;//组件的类型
+  String text;//文字信息
+
+  ChatItem(
+      {this.headIcon,
+        this.text,
+        this.maxWith = 300,
+        this.type = ChartType.right});
+}
+
 class ChatWidget extends StatelessWidget {
   final ChatItem chartItem;
 
@@ -55,11 +56,11 @@ class ChatWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    switch (chartItem.type) {
+    switch (chartItem.type) {//根据类型返回不同的组件
       case ChartType.right:
-        return _buildRight();
+        return _buildRight();//创建头像在右侧的组件
         break;
-      case ChartType.left:
+      case ChartType.left://创建头像在左侧的组件
         return _buildLeft();
         break;
     }
@@ -67,23 +68,15 @@ class ChatWidget extends StatelessWidget {
 
   Widget _buildRight() {
     var head = Padding(
-      padding: EdgeInsets.only(
-        left: 10,
-        right: 20,
-      ),
-      child: CircleImage(
-        image: chartItem.headIcon,
-      ),
+      padding: EdgeInsets.only(left: 10, right: 20,),
+      child: CircleImage(image: chartItem.headIcon,),
     );
 
     var box = NinePointBox(
       sliceRect: Rect.fromLTRB(18, 24, 65, 25),
       padding: EdgeInsets.fromLTRB(15, 10, 20, 10.0),
-      image: AssetImage(
-        'images/right_chat.png',
-      ),
-      child: Text(
-        chartItem.text,
+      image: AssetImage('images/right_chat.png',),
+      child: Text(chartItem.text,
         style: TextStyle(fontSize: 15.0),
       ),
     );
@@ -100,23 +93,15 @@ class ChatWidget extends StatelessWidget {
 
   Widget _buildLeft() {
     var head = Padding(
-      padding: EdgeInsets.only(
-        right: 10,
-        left: 20,
-      ),
-      child: CircleImage(
-        image: chartItem.headIcon,
-      ),
+      padding: EdgeInsets.only(right: 10, left: 20,),
+      child: CircleImage(image: chartItem.headIcon,),
     );
 
     var box = NinePointBox(
       sliceRect: Rect.fromLTRB(28, 26, 59, 27),
       padding: EdgeInsets.fromLTRB(20, 10, 10, 10.0),
-      image: AssetImage(
-        'images/left_chat.png',
-      ),
-      child: Text(
-        chartItem.text,
+      image: AssetImage('images/left_chat.png',),
+      child: Text(chartItem.text,
         style: TextStyle(fontSize: 15.0),
       ),
     );
@@ -127,25 +112,27 @@ class ChatWidget extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: <Widget>[
-          head,
-          box,
-        ],
+        children: <Widget>[head, box,],
       ),
     );
   }
 }
 
-var text = "在那片沧海，还未变成桑田的时候，就有了古老的歌，环响在丛林山涧。其声嘹响脱俗，其声缥缈虚无，那是谁的高声颤颤，那是谁的笑语连连。";
-var chart = ChatWidget(
+////----------测试 ---------------
+var right = ChatWidget(
   chartItem: ChatItem(
       headIcon: AssetImage("images/icon_head.png"),
-      text: text,
-      type: ChartType.left),
+      type: ChartType.right,
+      text: "凭君莫话封侯事，一将功成万骨枯。你觉得如何?"),
 );
 
-var show = Container(
-  child: chart,
-  color: Colors.grey.withAlpha(55),
-  height: 800,
+var left = ChatWidget(
+  chartItem: ChatItem(
+      headIcon: AssetImage("images/wy_200x300.jpg"),
+      type: ChartType.left,
+      text: "在苍茫的大海上，狂风卷积着乌云，在乌云和大海之间，海燕像黑色的闪电，在高傲的飞翔。"),
+);
+
+var show = Column(
+  children: <Widget>[right, left],
 );

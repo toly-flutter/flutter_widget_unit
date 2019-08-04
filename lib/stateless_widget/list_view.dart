@@ -4,50 +4,28 @@ import 'package:flutter/material.dart';
 import 'package:flutter_widget_unit/toly_widget/chart_widget.dart';
 
 base() {
-  var caverStyle = TextStyle(fontSize: 18, shadows: [
-    //文字样式
+  var caverStyle = TextStyle(fontSize: 18, shadows: [ //文字样式
     Shadow(color: Colors.white, offset: Offset(-0.5, 0.5), blurRadius: 0)
   ]);
 
   var show = ListView(
     //ListView的构造方法
     padding: EdgeInsets.all(8.0), //边距
+    scrollDirection: Axis.horizontal,//水平的ListView
     children: <Widget>[
       //孩子们
-      Container(
-        height: 50,
-        color: Color(0xffff0000),
+      Container(height: 50, color: Color(0xffff0000),
         child: Center(
-            child: Text(
-          '红色',
-          style: caverStyle,
-        )),
+            child: Text('红色', style: caverStyle,)),
       ),
-      Container(
-        height: 50,
-        color: Color(0xffFFFF00),
-        child: Center(
-            child: Text(
-          '黄色',
-          style: caverStyle,
-        )),
+      Container(height: 50, color: Color(0xffFFFF00),
+        child: Center(child: Text('黄色', style: caverStyle,)),
+      ),˚
+      Container(height: 50, color: Color(0xff00FF00),
+        child: Center(child: Text('绿色', style: caverStyle,)),
       ),
-      Container(
-        height: 50,
-        color: Color(0xff00FF00),
-        child: Center(
-            child: Text(
-          '绿色',
-          style: caverStyle,
-        )),
-      ),
-      Container(
-        height: 50,
-        color: Color(0xff0000FF),
-        child: Center(
-            child: Text(
-          '蓝色',
-          style: caverStyle,
+      Container(height: 50, color: Color(0xff0000FF),
+        child: Center(child: Text('蓝色', style: caverStyle,
         )),
       ),
     ],

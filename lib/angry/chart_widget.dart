@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget_unit/toly_widget/circle_head.dart';
+import 'package:flutter_widget_unit/toly_widget/circle_image.dart';
 
 enum ChartType { right, left }
 
@@ -72,7 +72,7 @@ class ChartWidget extends StatelessWidget {
               left: 10,
               right: 10,
             ),
-            child: CircleHead(
+            child: CircleImage(
               image: chartItem.headIcon,
             ),
           )
@@ -89,7 +89,7 @@ class ChartWidget extends StatelessWidget {
         right: 10,
         left: 20,
       ),
-      child: CircleHead(
+      child: CircleImage(
         image: chartItem.headIcon,
       ),
     );
